@@ -33,6 +33,8 @@ const Form = () => {
     }
 
     return (
+        <div>
+        <div className="">sdsdsdsddsd</div>
         <div className={'form'}>
             <h3>Введите ваши данные</h3>
             <input className={'input'} type='text' placeholder={'Страна'} value={country} onChange={onChangeCountry}/>
@@ -41,6 +43,7 @@ const Form = () => {
                 <option value={'physical'}>Физ. лицо</option>
                 <option value={'legal'}>Юр. лицо</option>
             </select>
+        </div>
         </div>
     );
 };
