@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px black solid;
+    transition: .2s linear;
+}
+
+.input:focus {
+    border: 1px var(--tg-theme-bg-color) solid;
+}
+
+.select {
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    outline: none;
+    transition: .2s linear;
+    border: 1px black solid;
+}
+
+.select:focus {
+    border: 1px var(--tg-theme-bg-color) solid;
+}
